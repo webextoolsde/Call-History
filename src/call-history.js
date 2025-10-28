@@ -79,7 +79,8 @@ class AgentHistoryWidget extends HTMLElement {
     this.agentId = this.getAttribute("agent-id") || "04a73c42-64b5-4d68-ad9e-37abaf43b72e";
     this.pageSize = Number(this.getAttribute("page-size") || 1000);
     this.intervalMs = Number(this.getAttribute("interval-ms") || 15000);
-    this.baseUrl = this.getAttribute("base-url") || "https://api.wxcc-us1.cisco.com/v1/history/agentHistory";
+    const datacenter = this.datacenter;
+    this.baseUrl = this.getAttribute("base-url") || "https://api.wxcc-"+datacenter+".cisco.com/v1/history/agentHistory";
     this.timer = null;
     this.auto = true;
   }

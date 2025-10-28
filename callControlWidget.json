@@ -87,14 +87,14 @@
     "navigation": [
       {
         "nav": {
-          "label": "Voice SDK",
+          "label": "Call History",
           "icon": "call-voicemail",
           "iconType": "momentum",
-          "navigateTo": "voice-sdk",
+          "navigateTo": "agent-history-list",
           "align": "top"
         },
         "page": {
-          "id": "voice-sdk",
+          "id": "agent-history-list",
           "widgets": {
             "comp2": {
               "comp": "div",
@@ -104,18 +104,20 @@
               },
               "children": [
                 {
-                  "comp": "sa-ds-voice-sdk",
+                  "comp": "agent-history-list",
                   "script": "http://localhost:5000/build/bundle.js",
                   "wrapper": {
-                    "title": "CallControl SDK Methods",
+                    "title": "Call History",
                     "maximizeAreaName": "app-maximize-area"
                   },
                   "attributes": {
                     "darkmode": "$STORE.app.darkMode"
                   },
                   "properties": {
-                    "accessToken": "$STORE.auth.accessToken",
-                    "outdialEp": "$STORE.agent.outDialEp"
+                    "bearerToken": "$STORE.auth.accessToken",
+                    "outdialEp": "2df8d2e9-aac0-4b58-8bff-acb975c1d74c",
+                    "organizationId":"febe91de-9246-4ec4-9972-020480615eac",
+                    "datacenter":"us1"
                   }
                 }
               ]

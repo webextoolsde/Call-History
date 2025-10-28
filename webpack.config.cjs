@@ -2,7 +2,7 @@ const path = require("path");
 
 const config = {
   mode: "production",
-  entry: "./src/widget-SDK-Voice.js",
+  entry: "./src/call-history.js",
   output: {
     path: path.resolve(__dirname, "src/build"),
     filename: "bundle.js",

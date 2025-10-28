@@ -1,6 +1,6 @@
 {
   "version": "0.0.6",
-  "appTitle": "CallControl Widget Sample",
+  "appTitle": "CallHistory Widget Sample",
   "logo": "",
   "dragDropEnabled": true,
   "notificationTimer": 8,

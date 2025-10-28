@@ -23,10 +23,3 @@ _To wire up the Widget to the Layout:_
   - Note that Layouts are configured per Agent Team.
 - Log in to your agent and select the right Team to view the new layout.
 
-**Additional Improvements:**
-
-- You can modify the widget as required.
-- To create a new compiled JS file, using `npm run build` which will create the new compiled JS under `build/bundle.js`.
-- You may rename this file, host it on your server of choice, and use this as the widget `src` parameter in the layout.
-- For the `Make an OutDial Call` - you will need to add the Outdial ANI in the Post body the key is called `origin` from your tenant's Portal make sure to use +1xxxxxxxxxx(or your country code)
-

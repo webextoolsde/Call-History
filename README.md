@@ -1,6 +1,7 @@
 ## Desktop Call History Widget
 
-![Uploading image.png…]()
+<img width="1537" height="729" alt="image" src="https://github.com/user-attachments/assets/5819572c-97e6-46ba-a041-cf88c4fe91b0" />
+
 
 
 ### Executing the sample

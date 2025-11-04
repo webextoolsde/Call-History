@@ -105,7 +105,7 @@
               "children": [
                 {
                   "comp": "agent-history-list",
-                  "script": "http://localhost:5000/build/bundle.js",
+                  "script": "https://webextoolsde.github.io/Call-History/src/build/call-history.js",
                   "wrapper": {
                     "title": "Call History",
                     "maximizeAreaName": "app-maximize-area"
